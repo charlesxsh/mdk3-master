@@ -59,5 +59,8 @@ This tool should only be used for experimenting with the security of your own wi
       deauthenticates Stations and APs sending WPA encrypted packets.
       With this test you can check if the sysadmin will try setting his
       network to WEP or disable encryption.
-    t   - Probe request tests (mod-musket)
+    t   - Probe Request Tests (mod-musket)
       mdk3 <mon> t <channel> <bssid AP> <frames/sec>
+
+#Example Usage
+        mdk3 mon0 t 11 00:11:22:33:44:55 50 or mdk3 wlan0mon t 11 00:11:22:33:44:55 50
