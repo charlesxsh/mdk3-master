@@ -60,4 +60,4 @@ This tool should only be used for experimenting with the security of your own wi
       With this test you can check if the sysadmin will try setting his
       network to WEP or disable encryption.
     t   - Probe request tests (mod-musket)
-      ./mdk3 <mon> t <channel> <bssid AP> <frames/sec>
+      mdk3 <mon> t <channel> <bssid AP> <frames/sec>
