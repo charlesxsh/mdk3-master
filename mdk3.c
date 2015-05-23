@@ -295,7 +295,7 @@ char use_head[]="\nMDK 3.0 " VERSION " - \"fuck the censorship\"\n"
 		"      With this test you can check if the sysadmin will try setting his\n"
 		"      network to WEP or disable encryption.\n"
 		"t   - Probe request tests (mod-musket)\n"
-		"      ./mdk3 <mon> t <channel> <bssid AP> <frames/sec>\n";
+		"      mdk3 <mon> t <channel> <bssid AP> <frames/sec>\n";
 
 
 char use_beac[]="b   - Beacon Flood Mode\n"
