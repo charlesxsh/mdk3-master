@@ -63,4 +63,9 @@ This tool should only be used for experimenting with the security of your own wi
       mdk3 <mon> t <channel> <bssid AP> <frames/sec>
 
 #Example Usage
-        mdk3 mon0 t 11 00:11:22:33:44:55 50 or mdk3 wlan0mon t 11 00:11:22:33:44:55 50
+        mdk3 mon0 t 11 00:11:22:33:44:55 50
+        mdk3 wlan0mon t 11 00:11:22:33:44:55 50
+mon0/wlan0mon is the monitor interface, t is Probe Request Mode, 00:11:22... is the target's MAC Address, and 50 is the packets per second.
+
+#Contributions
+A big thanks to the Musket Developer who added this new test option to MDK3 :D
